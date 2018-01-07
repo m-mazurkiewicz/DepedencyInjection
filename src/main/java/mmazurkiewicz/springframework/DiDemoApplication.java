@@ -1,14 +1,16 @@
-package mmazurkiewicz;
+package mmazurkiewicz.springframework;
 
-import mmazurkiewicz.controllers.ConstructorInjectedController;
-import mmazurkiewicz.controllers.MyController;
-import mmazurkiewicz.controllers.PropertyInjectedController;
-import mmazurkiewicz.controllers.SetterInjectedController;
+import mmazurkiewicz.springframework.controllers.ConstructorInjectedController;
+import mmazurkiewicz.springframework.controllers.MyController;
+import mmazurkiewicz.springframework.controllers.PropertyInjectedController;
+import mmazurkiewicz.springframework.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+//@ComponentScan(basePackages = {"mmazurkiewicz.springframework.services", "mmazurkiewicz.springframework"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {

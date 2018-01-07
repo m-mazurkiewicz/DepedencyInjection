@@ -1,6 +1,6 @@
-package mmazurkiewicz.controllers;
+package mmazurkiewicz.springframework.controllers;
 
-import mmazurkiewicz.services.GreetingServiceImpl;
+import mmazurkiewicz.springframework.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

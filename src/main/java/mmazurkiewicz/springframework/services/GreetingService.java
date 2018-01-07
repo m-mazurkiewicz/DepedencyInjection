@@ -1,4 +1,4 @@
-package mmazurkiewicz.services;
+package mmazurkiewicz.springframework.services;
 
 public interface GreetingService {
     String sayGreeting();

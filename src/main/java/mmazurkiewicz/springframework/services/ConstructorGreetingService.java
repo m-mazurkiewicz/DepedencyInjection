@@ -1,4 +1,4 @@
-package mmazurkiewicz.services;
+package mmazurkiewicz.springframework.services;
 
 import org.springframework.stereotype.Service;
 

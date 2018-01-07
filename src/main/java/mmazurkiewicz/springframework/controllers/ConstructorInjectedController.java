@@ -1,7 +1,6 @@
-package mmazurkiewicz.controllers;
+package mmazurkiewicz.springframework.controllers;
 
-import mmazurkiewicz.services.GreetingService;
-import org.springframework.beans.factory.annotation.Autowired;
+import mmazurkiewicz.springframework.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

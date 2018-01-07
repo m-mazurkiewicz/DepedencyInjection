@@ -1,6 +1,6 @@
-package mmazurkiewicz.controllers;
+package mmazurkiewicz.springframework.controllers;
 
-import mmazurkiewicz.services.GreetingService;
+import mmazurkiewicz.springframework.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller
