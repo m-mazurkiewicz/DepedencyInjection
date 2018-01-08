@@ -1,6 +1,7 @@
 package mmazurkiewicz.springframework.examplebeans;
 
-public class FakeDataSource {
+public class FakeJmsBroker {
+
     private String username;
     private String password;
     private String url;
