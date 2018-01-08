@@ -3,3 +3,9 @@ guru:
     username: JMS username
     password: jmsPassword
     dburl: jakiesURL
+---
+spring:
+  profiles: pl
+guru:
+  jms:
+    username: JMS username in Polish
